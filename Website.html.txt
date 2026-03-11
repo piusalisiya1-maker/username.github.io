@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Aesthetic Blog</title>
+<style>
+body{
+  margin:0;
+  font-family: 'Georgia', serif;
+  background:#0f0f14;
+  color:#f2f2f2;
+}
+header{
+  text-align:center;
+  padding:40px 20px;
+  font-size:2.5rem;
+  letter-spacing:2px;
+}
+nav{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding-bottom:20px;
+}
+nav a{
+  color:#cfcfe8;
+  text-decoration:none;
+  font-size:1rem;
+}
+section{
+  max-width:900px;
+  margin:auto;
+  padding:40px 20px;
+}
+.card{
+  background:#1a1a22;
+  padding:25px;
+  margin-bottom:25px;
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+.card h2{
+  margin-top:0;
+}
+img{
+  width:100%;
+  border-radius:12px;
+  margin-top:15px;
+}
+footer{
+  text-align:center;
+  padding:30px;
+  font-size:0.9rem;
+  opacity:0.7;
+}
+</style>
+</head>
+<body><header>My Digital Garden</header><nav>
+<a href="#haircare">Haircare</a>
+<a href="#poetry">Poetry</a>
+<a href="#blog">Blog</a>
+</nav><section id="haircare">
+<h1>Haircare</h1><div class="card">
+<h2>My Hair Journey</h2>
+<p>Documenting my journey with hair growth, scalp health, and repairing damage.</p>
+<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" />
+</div></section><section id="poetry">
+<h1>Poetry</h1><div class="card">
+<h2>Untitled</h2>
+<p>
+Your sample poem goes here.<br>
+Replace this text with your own poetry.
+</p>
+</div></section><section id="blog">
+<h1>Blog</h1><div class="card">
+<h2>First Post</h2>
+<p>
+Write about life, thoughts, routines, or anything aesthetic and personal.
+</p>
+</div></section><footer>
+© 2026 My Aesthetic Blog
+</footer></body>
+</html>
